@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wired - Your Tunes, Your Way</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class = "brand"><img src = "logo.png" alt = "Wired"></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItem">
+                <img src="cover.jpeg" alt="1">
+                <span class = "songName">The Spectre</span>
+                <span class="songlistplay"><span class="timestamp">03:27 </span><i class="far fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="cover1.jpeg" alt="1">
+                <span class = "songName">Faded</span>
+                <span class="songlistplay"><span class="timestamp">04:21</span><i class="far fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="cover2.jpeg" alt="1">
+                <span class = "songName">Dreamer</span>
+                <span class="songlistplay"><span class="timestamp">02:35</span><i class="far fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="cover3.jpeg" alt="1">
+                <span class = "songName">Alone</span>
+                <span class="songlistplay"><span class="timestamp">02:44</span><i class="far fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="cover4.jpeg" alt="1">
+                <span class = "songName">Alone II</span>
+                <span class="songlistplay"><span class="timestamp">04:06</span><i class="far fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="cover5.jpeg" alt="1">
+                <span class = "songName">On My Way</span>
+                <span class="songlistplay"><span class="timestamp">03:37</span><i class="far fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="cover6.jpeg" alt="1">
+                <span class = "songName">Darkside</span>
+                <span class="songlistplay"><span class="timestamp">04:00</span><i class="far fa-play-circle"></i></span>
+            </div>            
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class = "bottom">
+        <input type = "range" id = "myProgressBar" min = "0" value = "0" max = "100">
+        <div class = "icons">
+            <!--fontawesome icons-->
+            <i class="fas fa-3x fa-fast-backward"></i>
+            <i class="fas fa-3x fa-play-circle" id = "masterPlay"></i>
+            <i class="fas fa-3x fa-fast-forward"></i>
+        </div>
+        <div class = "songInfo">
+            <img src="playing.gif" width = "45px" alt="" id = "gif"> The Spectre
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/55cf9890c4.js" crossorigin="anonymous"></script>
+    <script src = "script.js"></script>
+</body>
+</html>
